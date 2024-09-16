@@ -34,7 +34,7 @@ head(datos)
 Quitamos la primera y la última columna porque son redundantes:
 
 ```{r}
-datos = datos[2:length(datos)-1]
+datos = datos[3:ncol(datos)-1]
 head(datos)
 ```
 
