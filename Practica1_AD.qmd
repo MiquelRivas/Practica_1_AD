@@ -24,15 +24,25 @@ Se presenta un análisis exploratorio de los datos que contendrá:
 4-Gráficos
 5-Conclusiones
 
+## Presetación de los datos:
+
 ```{r}
 datos = read.table("datos_practica1.csv", sep=";", head=TRUE)
 head(datos)
 ```
 
-Quitamos la primera y la última columna porque son redundantes
+Quitamos la primera y la última columna porque son redundantes:
 
 ```{r}
 datos = datos[2:length(datos)-1]
 head(datos)
 ```
+
+A continuación, le quitamos los datos vacíos:
+```{r}
+datos = na.omit(datos)
+```
+
+
+
 
