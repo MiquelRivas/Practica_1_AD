@@ -11,18 +11,13 @@ Participantes: Álvaro Velasco Sobrino, Carlos Bayés Liébana, Miquel Rivas Van
 #| echo: false
 ```
 
-En este documento se presenta un análisis exploratorio de los datos Alumnos matriculados. Sexo, dedicación y procedencia. Curso 2024-2025. Universidad de Zaragoza. Obtenidos de la página:
+En este documento se presenta un análisis exploratorio de los datos salud y mortalidad y sus indicadores del Observatorio Vasco de la Juventud
 
-(https://datos.gob.es/es/catalogo/u02100001-alumnos-matriculados-sexo-dedicacion-y-procedencia-curso-2024-2025-universidad-de-zaragoza)
+(https://datos.gob.es/es/catalogo/a16003011-salud-y-mortalidad-indicadores-del-observatorio-vasco-de-la-juventud)
 
 ## En este trabajo
 
-Se presenta un análisis exploratorio de los datos que contendrá:
-1-Presentación de los datos
-2-Análisis de las medidas en su tendencia central
-3-Análisis de la variabilidad
-4-Gráficos
-5-Conclusiones
+Se presenta un análisis exploratorio de los datos que contendrá: 1-Presentación de los datos 2-Análisis de las medidas en su tendencia central 3-Análisis de la variabilidad 4-Gráficos 5-Conclusiones
 
 ## Presetación de los datos:
 
@@ -39,10 +34,7 @@ head(datos)
 ```
 
 A continuación, le quitamos los datos vacíos:
+
 ```{r}
 datos = na.omit(datos)
 ```
-
-
-
-
