@@ -1,26 +1,22 @@
 ---
 title: "Practica1_AD"
 format: html
-editor: visual
+Asignatura: Análisis de datos
+Grado: Matemáticas
+Profesora: Irene María García Mosquera
+Participantes: Álvaro Velasco Sobrino, Carlos Bayés Liébana, Miquel Rivas Vanrell
 ---
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
 
 ```{r}
 #| echo: false
-2 * 2
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+En este documento se presenta un análisis exploratorio de los datos Alumnos matriculados. Sexo, dedicación y procedencia. Curso 2024-2025. Universidad de Zaragoza. Obtenidos de la página: 
+
+(https://datos.gob.es/es/catalogo/u02100001-alumnos-matriculados-sexo-dedicacion-y-procedencia-curso-2024-2025-universidad-de-zaragoza)
+
+
+--
+En este trabajo
+--
+Se presenta un análisis exploratorio de los datos 
